@@ -1,0 +1,49 @@
+.color-rojo{
+    color: red;
+}
+
+.color-azul{
+    color: blue;
+}
+
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size-xl{
+    font-size: 35px;
+}
+
+.bg-color-blue{
+    background-color: blue;
+}
+
+.padding-3{
+    padding: 5px;
+}
+
+
+
+body{
+    background-color: #1a1a1a;
+}
+
+.color-yellow-coder{
+    color: #F4FE80;
+}
+
+.logo-coder{
+    width: 150px;
+}
+
+.color-blanco{
+    border: 1px solid white !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+.grid{
+    align-items: center;
+}
