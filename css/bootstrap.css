@@ -6,12 +6,12 @@
     color: blue;
 }
 
-.font-arial{
-    font-family: Arial, Helvetica, sans-serif;
+.font-roboto{
+    font-family: "Roboto Mono", monospace;
 }
 
 .font-size-xl{
-    font-size: 35px;
+    font-size: 1.8rem;
 }
 
 .bg-color-blue{
@@ -22,18 +22,26 @@
     padding: 5px;
 }
 
+.navbar-brand{
+    display: inline;
+    font-weight: bold;
+}
 
+.navbar-brand:hover {
+    color: rgb(252, 170, 170);
+}
+
+.color-text{
+    color: #ffe14b;
+    font-weight: bold;
+}
 
 body{
-    background-color: #1a1a1a;
+    background-color: #1e002e;
 }
 
 .color-yellow-coder{
     color: #F4FE80;
-}
-
-.logo-coder{
-    width: 150px;
 }
 
 .color-blanco{
@@ -46,4 +54,58 @@ body{
 
 .grid{
     align-items: center;
+}
+
+.divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: #3c2a45
+    ;
+    color: #ffe14b;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    text-align: center;
+    border: none;
+}
+
+a:link {
+    color: red;
+  }
+
+a:visited {
+    color:#F4FE80;
+  }
+
+a:hover{
+    color: rgb(252, 170, 170);
+}
+
+.footer .socials a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer .legal {
+    text-align: center;
+}
+
+.footer .socials{
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: rgb(252, 170, 170);
 }
