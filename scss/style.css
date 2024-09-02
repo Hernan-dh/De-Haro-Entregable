@@ -26,6 +26,10 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px; }
 
+  h5 {
+    color: #FFB73D;  
+    font-family: 'Montserrat', sans-serif; }
+
 .navbar_style ul li a:hover {
   color: #FFB73D !important;
   border-bottom: 1px solid white; }
